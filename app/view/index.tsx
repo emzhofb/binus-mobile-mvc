@@ -34,7 +34,7 @@ export default function HomeScreenView({ items }: Props) {
       <ThemedView style={styles.container}>
         <View style={styles.headerContainer}>
           <ThemedText type="title" style={styles.title}>Binus MVC!</ThemedText>
-          <Text style={styles.subtitle}>Ikhda</Text>
+          <Text style={styles.subtitle}>List of the Smartphones</Text>
         </View>
         <FlatList
           data={items}
